@@ -3,15 +3,15 @@
  
 <image src="https://blog.kakaocdn.net/dn/0wqzK/btrFsfcJ9B4/VVF55rERg1ZkH6KTanfUp0/img.jpg" width=600px><br>
 
-엘리 스티븐스, 루카 안티가, 토마스 피이만 지음 | 현동석 옮김
-604쪽 | 35,000원 | 2022년 6월 30일 출간 | 185*240*29 | ISBN 9791189909413
+엘리 스티븐스, 루카 안티가, 토마스 피이만 지음 | 현동석 옮김<br>
+604쪽 | 35,000원 | 2022년 6월 30일 출간 | 185*240*29 | ISBN 9791189909413<br>
 
-★ 책만 도서 정보페이지 https://www.onlybook.co.kr/entry/structured-data
+★ 책만 도서 정보페이지 [https://www.onlybook.co.kr/entry/pytorch](https://www.onlybook.co.kr/entry/pytorch)
 
-▶ 교보문고 https://bit.ly/3twS79O
-▶ 예스24 https://bit.ly/3O5NuLM
-▶ 알라딘 http://aladin.kr/p/QPfia
-▶ 인터파크 https://bit.ly/3MLFbUg
+▶ 교보문고 https://bit.ly/3twS79O<br>
+▶ 예스24 https://bit.ly/3O5NuLM<br>
+▶ 알라딘 http://aladin.kr/p/QPfia<br>
+▶ 인터파크 https://bit.ly/3MLFbUg<br>
 
 
 * 원서: Deep Learning with PyTorch: Build, train, and tune neural networks using Python tools
@@ -27,13 +27,12 @@
 
  
 ## | 이 책에서 다루는 내용 | 
-● 심층 신경망 훈련
-●  모듈과 손실 함수 구현
-●  파이토치 허브의 사전 훈련된 모델 활용
-●  주피터 노트북 코드 샘플 탐구
-
-●  딥러닝 모델 성능의 분석, 평가, 개선 
-●  폐 종양 CT 영상 데이터를 활용한 모델 분석부터 서빙까지 엔드투엔드 모의 암 진단 프로젝트
+● 심층 신경망 훈련<br>
+●  모듈과 손실 함수 구현<br>
+●  파이토치 허브의 사전 훈련된 모델 활용<br>
+●  주피터 노트북 코드 샘플 탐구<br>
+●  딥러닝 모델 성능의 분석, 평가, 개선 <br>
+●  폐 종양 CT 영상 데이터를 활용한 모델 분석부터 서빙까지 엔드투엔드 모의 암 진단 프로젝트<br>
 
 파이썬을 사용하는 많은 딥러닝 도구가 있지만 그중 파이토치 라이브러리가 가장 파이썬스럽다.
 파이토치는 넘파이나 사이킷런 같은 파이데이터 도구를 아는 이들에게 친숙하며 고급 기능의 제한 없이도 딥러닝을 단순하게 만든다.
