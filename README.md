@@ -4,7 +4,7 @@
 <image src="https://blog.kakaocdn.net/dn/0wqzK/btrFsfcJ9B4/VVF55rERg1ZkH6KTanfUp0/img.jpg" width=600px><br>
 
 엘리 스티븐스, 루카 안티가, 토마스 피이만 지음 | 현동석 옮김<br>
-604쪽 | 35,000원 | 2022년 6월 30일 출간 | 185*240*29 | ISBN 9791189909413<br>
+604쪽 | 35,000원 | 2022년 6월 30일 출간 | 185 * 240 * 29 | ISBN 9791189909413<br>
 
 ★ 책만 도서 정보페이지 [https://www.onlybook.co.kr/entry/pytorch](https://www.onlybook.co.kr/entry/pytorch)
 
