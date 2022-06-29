@@ -1,51 +1,56 @@
-# Deep Learning with PyTorch
+# 파이토치 딥러닝 마스터
+모의 암 진단 프로젝트로 배우는 신경망 모델 구축부터 훈련, 튜닝, 모델 서빙까지
+ 
+<image src="https://blog.kakaocdn.net/dn/0wqzK/btrFsfcJ9B4/VVF55rERg1ZkH6KTanfUp0/img.jpg" width=600px><br>
 
-This repository contains code for the book Deep Learning with PyTorch by Eli Stevens, Luca Antiga, and Thomas Viehmann, published by Manning Publications.
+엘리 스티븐스, 루카 안티가, 토마스 피이만 지음 | 현동석 옮김
+604쪽 | 35,000원 | 2022년 6월 30일 출간 | 185*240*29 | ISBN 9791189909413
 
-![Image of the cover for Deep Learning with PyTorch](data/Stevens-DLPy-HI.png)
+★ 책만 도서 정보페이지 https://www.onlybook.co.kr/entry/structured-data
 
-The Manning site for the book is: https://www.manning.com/books/deep-learning-with-pytorch
+▶ 교보문고 https://bit.ly/3twS79O
+▶ 예스24 https://bit.ly/3O5NuLM
+▶ 알라딘 http://aladin.kr/p/QPfia
+▶ 인터파크 https://bit.ly/3MLFbUg
 
-The book can also be purchased on Amazon: https://amzn.to/38Iwrff (affiliate link; as per the rules: "As an Amazon Associate I earn from qualifying purchases.")
 
-The errata for the book can be found on the manning website, or at https://deep-learning-with-pytorch.github.io/dlwpt-code/errata.html
+* 원서: Deep Learning with PyTorch: Build, train, and tune neural networks using Python tools
+ 
+ 
 
-## About Deep Learning with PyTorch
+ 
+✔ 파이토치 핵심 개발진이 직접 집필한 책으로, 최고 실무자가 바로 옆에 앉아서 딥러닝의 기초부터 실제 프로젝트 활용까지, 모델 성능 평가와 개선 방안을 차근차근 알려주는 느낌을 준다! 
 
-This book has the aim of providing the foundations of deep learning with PyTorch and
-showing them in action in a real-life project. We strive to provide the key concepts underlying deep learning and show how PyTorch puts them in the hands of practitioners. In
-the book, we try to provide intuition that will support further exploration, and in doing
-so we selectively delve into details to show what is going on behind the curtain.
-Deep Learning with PyTorch doesn’t try to be a reference book; rather, it’s a conceptual companion that will allow you to independently explore more advanced material
-online. As such, we focus on a subset of the features offered by PyTorch. The most
-notable absence is recurrent neural networks, but the same is true for other parts of
-the PyTorch API.
+✔ 텐서, 신경망 같은 딥러닝 데이터 구조의 개념과 원리부터 파이토치와 의료 데이터를 활용한 완전하게 동작 가능한 딥러닝 서비스 구축부터 배포까지, 딥러닝 전체 워크플로를 모두 다룬다!
 
-## Who should read this book
+✔ 파이토치를 활용해 신경망과 딥러닝 시스템을 만드는 방법을 알려준다. 종양 이미지 분류기라는 실전 예제 구축 작업을 바닥부터 배우는 실용적인 내용이 가득하다. 동시에 파이토치 텐서 API, 파이썬의 데이터 로딩, 훈련 모니터링, 결과 시각화 등 딥러닝 파이프라인 전체에 대한 최고의 실습 사례를 다룬다. 
 
-This book is meant for developers who are or aim to become deep learning practitioners and who want to get acquainted with PyTorch. We imagine our typical reader
-to be a computer scientist, data scientist, or software engineer, or an undergraduateor-later student in a related program. Since we don’t assume prior knowledge of deep
-learning, some parts in the first half of the book may be a repetition of concepts that
-are already known to experienced practitioners. For those readers, we hope the exposition will provide a slightly different angle to known topics.
- We expect readers to have basic knowledge of imperative and object-oriented programming. Since the book uses Python, you should be familiar with the syntax and
-operating environment. Knowing how to install Python packages and run scripts on
-your platform of choice is a prerequisite. Readers coming from C++, Java, JavaScript,
-Ruby, or other such languages should have an easy time picking it up but will need to
-do some catch-up outside this book. Similarly, being familiar with NumPy will be useful, if not strictly required. We also expect familiarity with some basic linear algebra,
-such as knowing what matrices and vectors are and what a dot product is.
+ 
+## | 이 책에서 다루는 내용 | 
+● 심층 신경망 훈련
+●  모듈과 손실 함수 구현
+●  파이토치 허브의 사전 훈련된 모델 활용
+●  주피터 노트북 코드 샘플 탐구
 
-## About the authors
+●  딥러닝 모델 성능의 분석, 평가, 개선 
+●  폐 종양 CT 영상 데이터를 활용한 모델 분석부터 서빙까지 엔드투엔드 모의 암 진단 프로젝트
 
-Eli Stevens has spent the majority of his career working at startups in Silicon Valley,
-with roles ranging from software engineer (making enterprise networking appliances)
-to CTO (developing software for radiation oncology). At publication, he is working
-on machine learning in the self-driving-car industry.
+파이썬을 사용하는 많은 딥러닝 도구가 있지만 그중 파이토치 라이브러리가 가장 파이썬스럽다.
+파이토치는 넘파이나 사이킷런 같은 파이데이터 도구를 아는 이들에게 친숙하며 고급 기능의 제한 없이도 딥러닝을 단순하게 만든다.
+또한 빠르게 모델을 만드는 데 뛰어나며 노트북부터 기업 규모까지 자연스러운 확장이 가능하다.
+애플, 페이스북, JP모건 체이스 같은 기업에서 활용하는 파이토치는 여러분의 경력을 확대해 나가는 데에도 도움이되는 훌륭한 기술이다.
 
-Luca Antiga worked as a researcher in biomedical engineering in the 2000s, and
-spent the last decade as a cofounder and CTO of an AI engineering company. He has
-contributed to several open source projects, including the PyTorch core. He recently
-cofounded a US-based startup focused on infrastructure for data-defined software.
+이 책에서는 파이토치를 활용해 신경망과 딥러닝 시스템을 만드는 방법을 알려준다. 
+종양 이미지 분류기라는 실전 예제 구축 작업을 바닥부터 배우는 실용적인 내용이 가득하다. 
+동시에 파이토치 텐서 API, 파이썬의 데이터 로딩, 훈련 모니터링, 결과 시각화 등 딥러닝 파이프라인 전체에 대한 최고의 실습 사례를 다룬다. 
+이 책은 머신러닝에 관심이 있는 파이썬 프로그래머에게 훌륭한 학습서가 될 것이다.
 
-Thomas Viehmann is a machine learning and PyTorch specialty trainer and consultant based in Munich, Germany, and a PyTorch core developer. With a PhD in
-mathematics, he is not scared by theory, but he is thoroughly practical when applying
-it to computing challenges.
+## | 이 책의 대상 독자 | 
+이 책은 딥러닝을 실무에 활용하거나 파이토치를 잘 쓰고 싶은 개발자를 대상으로 한다. 독자는 아마 현업 컴퓨터공학 전공자나 데이터 과학자, 소프트웨어 엔지니어, 혹은 관련 학과의 학부 이상 학생일 것이라 가정한다. 독자가 딥러닝에 대한 사전 지식이 없다고 가정했기 때문에, 어느 정도 경험 있는 실무자라면 이미 이미 알고 있는 개념을 반복적으로 설명한다. 초보 수준을 벗어난 독자라면 이미 알고 있는 주제라 하더라도 조금 다른 관점으로 설명한 부분이 잘 느껴지기 바란다.
+
+이 책의 독자는 명령형 프로그래밍과 객체 지향 프로그래밍에 대해 이미 기본 지식이 있다고 가정한다. 이 책에서는 파이썬을 사용하므로 독자는 기본 문법과 운영 환경에 익숙해야 한다. 파이썬 패키지를 설치하는 방법이나 자신의 플랫폼에서 스크립트를 실행하는 방법 정도는 미리 알고 있어야 한다. C++, 자바, 자바스크립트, 루비 등의 언어를 사용해본 경우라면 큰 어려움은 없을 테지만, 잘 모른다면 추가로 시간을 할애해 지식을 갖춰야 할 것이다. 넘파이(NumPy)에 익숙하면 좋지만 반드시 요구되는 사항은 아니다. 그리고 행렬이나 벡터 혹은 내적(dot product)이 무엇인지 아는 정도의 기본 선형 대수 지식도 갖춰두면 좋다.
+
+## | 하드웨어와 소프트웨어 요구사항 |
+- 8기가 RAM이 장착된 GPU
+- 최소 200기가의 디스크 공간
+- 파이썬 3.6 이상
